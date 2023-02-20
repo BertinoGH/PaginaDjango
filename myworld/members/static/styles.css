@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+* {
+  margin:0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color:rgb(255, 255, 255)
+}
+
+p{
+  width: 50%;
+}
+
+h2{
+  color:rgb(255, 255, 255)
+}
+
+video {
+  width: 100%;
+  height: auto;
+  background-color: rgb(225, 77, 42);
+}
+
+.img-header{
+  max-width: 50%;
+  width: 1200px;
+}
+
+body {
+  font-family: Montserrat, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+  height: auto;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  box-sizing: border-box;
+  height: 60px;
+  transition: 0.5s;
+  background-color:rgb(166, 35, 73);
+  font: 600 18px 'Source Sans Pro', sans-serif;
+}
+
+.logo{
+  height: 150%;
+}
+
+
+
+#medio{
+  background-color: rgb(197, 83, 0);
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+.contenedor{
+  background-color: red;
+  height: 50vh;
+  margin: 5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-menu{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-item{
+  margin: 0 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+  color:white;
+}
+
+.cta{
+  padding: 10px 14px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.cta:hover{
+  color:white;
+  background-color: orange;
+}
+
+
+
+/* Style the footer */
+footer {
+  height: auto;
+  width: auto;
+  position:static;
+  bottom:0;
+  left:0;
+  padding:2rem 8%;
+  background-color: rgb(35, 44, 51);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-direction:column;
+  box-sizing: border-box;
+}
+
+.footer-menu-container{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-bottom:1rem;
+  list-style-type:none;
+  color:rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.menu-item{
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity:0.6;
+}
+
+.menu-item:hover{
+  opacity: 1;
+}
+
+.copyright{
+  color: rgb(255, 255, 255);
+  opacity:0.3;
+  text-align: center;
+}
+
+
+

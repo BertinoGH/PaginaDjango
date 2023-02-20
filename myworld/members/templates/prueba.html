@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Blog No Violencia</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+    integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'prueba.css' %}">
+    <meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">  
+</head>
+<body>
+  <header>
+    <img class="logo" src="{% static 'firma blanco.png' %}" alt=""
+  </header>
+<nav>
+    <ul class="main-menu">
+        <li class="menu-item"><a class="active" href="/members">Inicio</a></li>
+        <li class="menu-item"><a href="/members/origen">Origen</a></li>
+        <li class="menu-item"><a href="/members/formas">Formas de Violencia</a></li>
+        <li class="menu-item"><a href="/members/campañas">Campañas</a></li>
+        <li class="menu-item"><a href="/members/quehacer">¿Qué hacer en contra de la violencia de genero?</a></li>
+      </ul>
+      <div class="menu-bar">Menu
+        <span class="hambuerguer-icon"><i class="fa fa-bars"></i></span>
+        </div>
+</nav>
+
+
+
+<div class="container">
+    <div class="section">
+        <div class="col span_2_of_3">
+            <div class="blog-post">
+                <h1 class="blog-title">Titulo</h1>
+                <h2 class="date">Publicado 2 Enero 2023</h2>
+                <img src="{% static 'onumujeres.jpg' %}" alt="">
+                <p class="blog-content">En el año 2000 la Asamblea General de la ONU designó el 25 de noviembre como el Día Internacional de la Eliminación de la Violencia contra la Mujer, invitando a gobiernos, organizaciones internacionales y ONG’s a involucrarse y coordinar acciones que eleven la conciencia pública para eliminar todas las formas de violencia contra las mujeres.
+                    Como principal antecedente de esta efeméride, desde 1981 militantes y activistas en favor del derecho de la mujer observaban el 25 de noviembre como día de protesta y conmemoración contra la violencia de género.
+                    La fecha de este Día Internacional de la Violencia contra la Mujer fue elegida para honrar la memoria de las hermanas Mirabal, tres activistas políticas de la República Dominicana que fueron brutalmente asesinadas en 1960, por orden del dictador dominicano Rafael Trujillo.
+
+                </p>
+            </div>
+        </div>
+        <aside class="col span1_of_3">
+            <div class="side-post">
+                <img src="{% static 'listonnaranja.jpg' %}" alt="">
+                <p class="side-content">TEXYTO 2 DSJBFJBSDALKBBBBBBBBDHBASHBDJHBDHJSAHVGVASHVF
+                    SADBJFBSAHBDJHBSBJBSDHBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFGDB
+                    SDBJHBHJBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBS
+                </p>
+            </div>
+            <div class="side-post">
+                <p class="side-content">asdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                </p>
+                <a href="#" class="button">Suscribete</a>
+            </div>
+        </aside>
+    </div>
+</div>
+<footer>
+  <h1>Secretaria de Salud</h1>
+  <p>Todos los derechos reservados @ 2023</p>
+</footer>
+
+</body>
+</html>

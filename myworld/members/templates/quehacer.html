@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>¿Qué hacer?</title>
+  <link rel="stylesheet" href="{% static 'styles1.css' %}">  
+</head>
+<body>
+  <header>
+    <h2>tabasco.gob.mx</h2>
+
+    <ul class="main-menu">
+      <li class="menu-item"><a class="active" href="/members">Inicio</a></li>
+      <li class="menu-item"><a href="/members/origen">Origen</a></li>
+      <li class="menu-item"><a href="/members/formas">Formas de Violencia</a></li>
+      <li class="menu-item"><a href="/members/campañas">Campañas</a></li>
+      <li class="menu-item"><a href="/members/quehacer">¿Qué hacer en contra de la violencia de genero?</a></li>
+    </ul>
+  </header>
+<div class="container">
+  <div class="section">
+    <div class="col span_2_of_3">
+      <div class="blog-post">
+        <h1 class="blog-title">¿Qué puedes hacer ante la violencia de género?</h1>
+        <img src="{% static 'violenciamujeres.jpg' %}" alt="">
+        <p class="blog-content">
+          Puede ser alguien muy cercano a ti. Si sospechas que alguien puede estar en peligro, asegúrate, pregúntale si está afrontando alguna dificultad con alguna persona de su entorno que involucre actos de violencia.
+          Infórmate sobre la violencia de género, conoce los servicios de ayuda más cercanos.
+        </p>
+        <h2>_</h2>
+        <p class="blog-content">
+          Si sospechas que la vida de alguna niña, mujer o la de sus hijos corre peligro, contacta a la policía o a las autoridades competentes. Tú puedes hacer la diferencia.
+          Comparte información útil e interesante en las redes sociales acerca del Día Internacional para la Eliminación de la Violencia contra la Mujer, con los hashtags #DíaDeLaEliminaciónDeLaViolenciaContraLaMujer #NiUnaMasNiUnaMenos
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer>
+  <img src="{% static 'firma blanco.png' %}" width="100" height="173">
+  <div>
+    <ul class="footer-menu-container">
+      <li class="menu-item"><a href="https://tabasco.gob.mx/salud">SALUD | Portal Tabasco</a></li>
+      <li class="menu-item"><a href="https://transparencia.tabasco.gob.mx/">Portal Transparencia</a></li>
+      <li class="menu-item"><a href="http://www.itaip.org.mx/site/">ITAIP</a></li>
+      <li class="menu-item"><a href="https://consultapublicamx.plataformadetransparencia.org.mx/vut-web/faces/view/consultaPublica.xhtml?idEntidad=Mjc=&idSujetoObligado=MA==#inicio">Plataforma Nacional de Transparencia</a></li>
+      <li class="menu-item"><a href="https://tabasco.gob.mx/accesibilidad">Accesibilidad</a></li>
+    </ul>
+  </div>
+  <span class="copyright">Gobierno del Estado de Tabasco &copy; Derechos Reservados</span>
+</footer>
+</body>
+</html>
